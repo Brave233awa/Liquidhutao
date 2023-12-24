@@ -18,6 +18,8 @@ import net.ccbluex.liquidbounce.injection.backend.Backend;
 import net.ccbluex.liquidbounce.ui.font.Fonts;
 import net.ccbluex.liquidbounce.utils.MinecraftInstance;
 import net.ccbluex.liquidbounce.utils.block.BlockUtils;
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.client.renderer.OpenGlHelper;
 import org.lwjgl.opengl.GL11;
 import org.lwjgl.opengl.GL14;
 
@@ -33,6 +35,85 @@ public final class RenderUtils extends MinecraftInstance {
     private static final int[] DISPLAY_LISTS_2D = new int[4];
     public static int deltaTime;
 
+    public static void drawRoundRect(float x0, float y0, float x1, float y1, float radius, int color) {
+        if (x0 == x1 || y0 == y1) return;
+        final int Semicircle = 18;
+        final float f = 90.0f / Semicircle;
+        final float f2 = (color >> 24 & 0xFF) / 255.0f;
+        final float f3 = (color >> 16 & 0xFF) / 255.0f;
+        final float f4 = (color >> 8 & 0xFF) / 255.0f;
+        final float f5 = (color & 0xFF) / 255.0f;
+        GL11.glDisable(2884);
+        GL11.glDisable(3553);
+        GL11.glEnable(3042);
+        GL11.glBlendFunc(770, 771);
+        OpenGlHelper.glBlendFunc(770, 771, 1, 0);
+        GL11.glColor4f(f3, f4, f5, f2);
+        GL11.glBegin(5);
+        GL11.glVertex2f(x0 + radius, y0);
+        GL11.glVertex2f(x0 + radius, y1);
+        GL11.glVertex2f(x1 - radius, y0);
+        GL11.glVertex2f(x1 - radius, y1);
+        GL11.glEnd();
+        GL11.glBegin(5);
+        GL11.glVertex2f(x0, y0 + radius);
+        GL11.glVertex2f(x0 + radius, y0 + radius);
+        GL11.glVertex2f(x0, y1 - radius);
+        GL11.glVertex2f(x0 + radius, y1 - radius);
+        GL11.glEnd();
+        GL11.glBegin(5);
+        GL11.glVertex2f(x1, y0 + radius);
+        GL11.glVertex2f(x1 - radius, y0 + radius);
+        GL11.glVertex2f(x1, y1 - radius);
+        GL11.glVertex2f(x1 - radius, y1 - radius);
+        GL11.glEnd();
+        GL11.glBegin(6);
+        float f6 = x1 - radius;
+        float f7 = y0 + radius;
+        GL11.glVertex2f(f6, f7);
+        int j;
+        for (j = 0; j <= Semicircle; ++j) {
+            final float f8 = j * f;
+            GL11.glVertex2f((float) (f6 + radius * Math.cos(Math.toRadians(f8))),
+                    (float) (f7 - radius * Math.sin(Math.toRadians(f8))));
+        }
+        GL11.glEnd();
+        GL11.glBegin(6);
+        f6 = x0 + radius;
+        f7 = y0 + radius;
+        GL11.glVertex2f(f6, f7);
+        for (j = 0; j <= Semicircle; ++j) {
+            final float f9 = j * f;
+            GL11.glVertex2f((float) (f6 - radius * Math.cos(Math.toRadians(f9))),
+                    (float) (f7 - radius * Math.sin(Math.toRadians(f9))));
+        }
+        GL11.glEnd();
+        GL11.glBegin(6);
+        f6 = x0 + radius;
+        f7 = y1 - radius;
+        GL11.glVertex2f(f6, f7);
+        for (j = 0; j <= Semicircle; ++j) {
+            final float f10 = j * f;
+            GL11.glVertex2f((float) (f6 - radius * Math.cos(Math.toRadians(f10))),
+                    (float) (f7 + radius * Math.sin(Math.toRadians(f10))));
+        }
+        GL11.glEnd();
+        GL11.glBegin(6);
+        f6 = x1 - radius;
+        f7 = y1 - radius;
+        GL11.glVertex2f(f6, f7);
+        for (j = 0; j <= Semicircle; ++j) {
+            final float f11 = j * f;
+            GL11.glVertex2f((float) (f6 + radius * Math.cos(Math.toRadians(f11))),
+                    (float) (f7 + radius * Math.sin(Math.toRadians(f11))));
+        }
+        GL11.glEnd();
+        GL11.glEnable(3553);
+        GL11.glEnable(2884);
+        GL11.glDisable(3042);
+        GlStateManager.enableTexture2D();
+        GlStateManager.disableBlend();
+    }
     static {
         for (int i = 0; i < DISPLAY_LISTS_2D.length; i++) {
             DISPLAY_LISTS_2D[i] = glGenLists(1);

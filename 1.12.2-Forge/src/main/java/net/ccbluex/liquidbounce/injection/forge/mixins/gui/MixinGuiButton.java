@@ -50,6 +50,8 @@ public abstract class MixinGuiButton extends Gui {
     private float cut;
     private float alpha;
 
+    private float rectY;
+
     @Shadow
     protected abstract void mouseDragged(Minecraft mc, int mouseX, int mouseY);
 
@@ -74,6 +76,10 @@ public abstract class MixinGuiButton extends Gui {
                 alpha += 0.3F * delta;
 
                 if (alpha >= 210) alpha = 210;
+
+                rectY += 0.1F * delta;
+
+                if (rectY >= height) rectY = height;
             } else {
                 cut -= 0.05F * delta;
 
@@ -82,12 +88,24 @@ public abstract class MixinGuiButton extends Gui {
                 alpha -= 0.3F * delta;
 
                 if (alpha <= 120) alpha = 120;
+
+                rectY -= 0.05F * delta;
+
+                if (rectY <= 4) rectY = 4;
             }
 
-            Gui.drawRect(this.x + (int) this.cut, this.y,
-                    this.x + this.width - (int) this.cut, this.y + this.height,
-                    this.enabled ? new Color(0F, 0F, 0F, this.alpha / 255F).getRGB() :
-                            new Color(0.5F, 0.5F, 0.5F, 0.5F).getRGB());
+            RenderUtils.drawRoundRect(this.x + (int) this.cut, this.y,
+                    this.x + this.width - (int) this.cut, this.y + this.height, 5F,
+                    new Color(11, 11, 11, 199).getRGB());
+
+            RenderUtils.drawRoundRect(this.x + (int) this.cut, this.y + this.height + 1f - rectY,
+                    this.x + this.width - (int) this.cut, this.y + this.height, 1F,
+                    new Color(250, 20, 20, 174).getRGB());
+
+
+
+
+
 
             mc.getTextureManager().bindTexture(BUTTON_TEXTURES);
             mouseDragged(mc, mouseX, mouseY);
