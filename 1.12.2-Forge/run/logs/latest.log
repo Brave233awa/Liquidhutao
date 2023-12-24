@@ -1,0 +1,173 @@
+[22:09:24] [main/INFO]: Extra: []
+[22:09:24] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/30895/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[22:09:24] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:09:24] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:09:24] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[22:09:24] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[22:09:24] [main/INFO]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[22:09:24] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_392, running on Windows 11:amd64:10.0, installed at C:\Users\30895\.jdks\corretto-1.8.0_392\jre
+[22:09:24] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[22:09:24] [main/ERROR]: Full: C:\Users\30895\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[22:09:24] [main/ERROR]: Trimmed: c:/users/30895/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[22:09:24] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[22:09:24] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
+[22:09:25] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[22:09:25] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugininecraftFormatting
+[22:09:25] [main/INFO] [FML]: Found a command line coremod : net.ccbluex.liquidbounce.injection.forge.MixinLoaderinecraftFormatting
+[22:09:25] [main/WARN] [FML]: The coremod net.ccbluex.liquidbounce.injection.forge.MixinLoader does not have a MCVersion annotation, it may cause issues with this version of MinecraftinecraftFormatting
+[22:09:25] [main/INFO] [FML]: Ignoring missing certificate for coremod MixinLoader (net.ccbluex.liquidbounce.injection.forge.MixinLoader), as this is probably a dev workspaceinecraftFormatting
+[22:09:25] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Users/30895/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8/dbe9e5db694a7c3cd644d5bb98f8a21295c75048/mixin-0.8.jar Service=LaunchWrapper Env=CLIENTinecraftFormatting
+[22:09:26] [main/INFO] [mixin]: Compatibility level set to JAVA_8inecraftFormatting
+[22:09:26] [main/INFO] [FML]: Searching C:\Users\30895\Desktop\Liquidhutao-1.12.2\1.12.2-Forge\run\.\mods for modsinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweakerinecraftFormatting
+[22:09:26] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugininecraftFormatting
+[22:09:26] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugininecraftFormatting
+[22:09:26] [main/INFO] [GradleStart]: Injecting location in coremod net.ccbluex.liquidbounce.injection.forge.MixinLoaderinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweakerinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweakerinecraftFormatting
+[22:09:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[22:09:30] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thinginecraftFormatting
+[22:09:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[22:09:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapperinecraftFormatting
+[22:09:30] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweakerinecraftFormatting
+[22:09:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweakerinecraftFormatting
+[22:09:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweakerinecraftFormatting
+[22:09:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[22:09:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweakerinecraftFormatting
+[22:09:30] [main/WARN] [mixin]: Reference map 'liquidbounce.mixins.refmap.json' for liquidbounce.forge.mixins.json could not be read. If this is a development environment you can ignore this messageinecraftFormatting
+[22:09:31] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}inecraftFormatting
+[22:09:33] [main/INFO] [net.minecraft.client.Minecraft]: Setting user: Player937inecraftFormatting
+[22:09:37] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[22:09:37] [main/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4inecraftFormatting
+[22:09:38] [main/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 1.8.0_392, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Amazon.com Inc.
+	Memory: 381266368 bytes (363 MB) / 564133888 bytes (538 MB) up to 3803185152 bytes (3627 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+MixinLoader (unknown)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 536.40' Renderer: 'NVIDIA GeForce GTX 1070/PCIe/SSE2'inecraftFormatting
+[22:09:38] [main/INFO] [FML]: MinecraftForge v14.23.5.2768 InitializedinecraftFormatting
+[22:09:38] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.inecraftFormatting
+[22:09:38] [Thread-3/INFO] [LiquidBounce]: [Shader] Successfully loaded: rainbow_font_shader.fraginecraftFormatting
+[22:09:38] [main/INFO] [FML]: Replaced 1036 ore ingredientsinecraftFormatting
+[22:09:39] [main/INFO] [FML]: Searching C:\Users\30895\Desktop\Liquidhutao-1.12.2\1.12.2-Forge\run\.\mods for modsinecraftFormatting
+[22:09:40] [main/INFO] [FML]: Forge Mod Loader has identified 4 mods to loadinecraftFormatting
+[22:09:40] [main/INFO] [STDERR]: [org.slf4j.helpers.Util:report:128]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".inecraftFormatting
+[22:09:40] [main/INFO] [STDERR]: [org.slf4j.helpers.Util:report:128]: SLF4J: Defaulting to no-operation (NOP) logger implementationinecraftFormatting
+[22:09:40] [main/INFO] [STDERR]: [org.slf4j.helpers.Util:report:128]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.inecraftFormatting
+[22:09:40] [main/INFO] [STDERR]: [org.apache.log4j.helpers.LogLog:warn:171]: log4j:WARN No appenders could be found for logger (io.netty.util.internal.logging.InternalLoggerFactory).inecraftFormatting
+[22:09:40] [main/INFO] [STDERR]: [org.apache.log4j.helpers.LogLog:warn:171]: log4j:WARN Please initialize the log4j system properly.inecraftFormatting
+[22:09:40] [main/INFO] [STDERR]: [org.apache.log4j.helpers.LogLog:warn:171]: log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.inecraftFormatting
+[22:09:40] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENTinecraftFormatting
+[22:09:40] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVERinecraftFormatting
+[22:09:40] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 34162000 nanosinecraftFormatting
+[22:09:41] [main/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft ForgeinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Processing ObjectHolder annotationsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Found 1168 ObjectHolder annotationsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Identifying ItemStackHolder annotationsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Found 0 ItemStackHolder annotationsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Configured a dormant chunk cache size of 0inecraftFormatting
+[22:09:41] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.jsoninecraftFormatting
+[22:09:41] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[22:09:41] [main/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[22:09:44] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2859inecraftFormatting
+[22:09:47] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...inecraftFormatting
+[22:09:47] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenALinecraftFormatting
+[22:09:47] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)inecraftFormatting
+[22:09:47] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.inecraftFormatting
+[22:09:47] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine startedinecraftFormatting
+[22:09:56] [main/INFO] [FML]: Max texture size: 16384inecraftFormatting
+[22:09:56] [main/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlasinecraftFormatting
+[22:09:58] [main/WARN] [mixin]: @Final field particleEmitters:Ljava/util/Queue; in liquidbounce.forge.mixins.json:render.MixinEffectRenderer should be finalinecraftFormatting
+[22:09:58] [main/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[22:09:58] [main/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[22:09:58] [main/INFO] [FML]: Injecting itemstacksinecraftFormatting
+[22:09:58] [main/INFO] [FML]: Itemstack injection completeinecraftFormatting
+[22:09:58] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 4 modsinecraftFormatting
+[22:09:58] [main/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:inecraftFormatting
+[22:09:58] [main/INFO] [LiquidBounce]: Starting LiquidSense b1, by CCBlueXinecraftFormatting
+[22:09:58] [main/INFO] [LiquidBounce]: Loading Fonts.inecraftFormatting
+[22:10:00] [main/INFO] [LiquidBounce]: Loaded Fonts. (1395ms)inecraftFormatting
+[22:10:00] [main/INFO] [LiquidBounce]: [ModuleManager] Loading modules...inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [ModuleManager] Loaded 148 modules.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [Remapper] Loading srg...inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [Remapper] Loaded srg.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: modules.json.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: values.json.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: accounts.json.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: friends.json.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: xray-blocks.json.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: shortcuts.json.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: clickgui.json.inecraftFormatting
+[22:10:01] [main/INFO] [LiquidBounce]: Loading heads...inecraftFormatting
+[22:10:02] [main/INFO] [LiquidBounce]: Loading heads from https://headdb.org/api/category/all...inecraftFormatting
+[22:10:04] [main/INFO] [LiquidBounce]: Loaded 956 heads from HeadDB.inecraftFormatting
+[22:10:04] [main/INFO] [LiquidBounce]: Registered http://capes.liquidbounce.net/api/v1/cape/uuid/%s as 'api' service type.inecraftFormatting
+[22:10:04] [main/INFO] [LiquidBounce]: Loaded.inecraftFormatting
+[22:10:04] [main/INFO] [LiquidBounce]: [FileManager] Loaded config: hud.json.inecraftFormatting
+[22:10:05] [main/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loadedinecraftFormatting
+[22:10:05] [main/INFO] [LiquidBounce]: [Shader] Successfully loaded: background.fraginecraftFormatting
+[22:10:06] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session idinecraftFormatting
+[22:10:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2inecraftFormatting
+[22:10:49] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypairinecraftFormatting
+[22:10:49] [Server thread/INFO] [FML]: Injecting existing registry data into this server instanceinecraftFormatting
+[22:10:51] [Server thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[22:10:51] [Server thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[22:10:51] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@78547eb1)inecraftFormatting
+[22:10:52] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancementsinecraftFormatting
+[22:10:52] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@78547eb1)inecraftFormatting
+[22:10:52] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@78547eb1)inecraftFormatting
+[22:10:52] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0inecraftFormatting
+[22:10:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 81%inecraftFormatting
+[22:10:53] [Server thread/INFO] [FML]: Unloading dimension -1inecraftFormatting
+[22:10:53] [Server thread/INFO] [FML]: Unloading dimension 1inecraftFormatting
+[22:10:53] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10inecraftFormatting
+[22:10:56] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2inecraftFormatting
+[22:10:56] [Netty Server IO #1/INFO] [FML]: Client protocol version 2inecraftFormatting
+[22:10:56] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 4 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2768,mcp@9.42inecraftFormatting
+[22:10:56] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection establishedinecraftFormatting
+[22:10:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection establishedinecraftFormatting
+[22:10:57] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player937[local:E:56791e97] logged in with entity id 270 at (116.09224537286399, 65.0, 287.13822671272334)inecraftFormatting
+[22:10:57] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player937 joined the gameinecraftFormatting
+[22:10:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...inecraftFormatting
+[22:10:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworldinecraftFormatting
+[22:10:58] [main/INFO] [LiquidBounce]: [Shader] Successfully loaded: rainbow_shader.fraginecraftFormatting
+[22:10:58] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...inecraftFormatting
+[22:10:58] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworldinecraftFormatting
+[22:11:42] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...inecraftFormatting
+[22:11:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworldinecraftFormatting
+[22:11:49] [main/INFO] [LiquidBounce]: [FileManager] Saved config: modules.json.inecraftFormatting
+[22:11:49] [main/INFO] [LiquidBounce]: [FileManager] Saved config: values.json.inecraftFormatting
+[22:11:49] [main/INFO] [LiquidBounce]: [FileManager] Saved config: clickgui.json.inecraftFormatting
+[22:11:49] [main/INFO] [LiquidBounce]: [FileManager] Saved config: xray-blocks.json.inecraftFormatting
+[22:11:49] [main/INFO] [LiquidBounce]: [FileManager] Saved config: hud.json.inecraftFormatting
+[22:11:49] [main/INFO] [LiquidBounce]: [FileManager] Saved config: shortcuts.json.inecraftFormatting
+[22:11:49] [main/INFO] [net.minecraft.client.Minecraft]: Stopping!inecraftFormatting
+[22:11:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping serverinecraftFormatting
+[22:11:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving playersinecraftFormatting
+[22:11:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worldsinecraftFormatting
+[22:11:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworldinecraftFormatting
+[22:11:50] [Server thread/INFO] [FML]: Unloading dimension 0inecraftFormatting
+[22:11:50] [Server thread/INFO] [FML]: Applying holder lookupsinecraftFormatting
+[22:11:50] [Server thread/INFO] [FML]: Holder lookups appliedinecraftFormatting
+[22:11:50] [main/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...inecraftFormatting
+[22:11:50] [main/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.cominecraftFormatting
