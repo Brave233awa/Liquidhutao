@@ -23,7 +23,5 @@
 
 # 更新
 
-2023/12/24
-
 - NewButton
 - background
